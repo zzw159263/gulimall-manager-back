@@ -3,9 +3,9 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
-            url: jdbc:mysql://localhost:3306/renren_fast?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-            username: renren
-            password: 123456
+            url: jdbc:mysql://localhost:3306/gulimall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+            username: root
+            password: root
             initial-size: 10
             max-active: 100
             min-idle: 10
@@ -33,7 +33,6 @@ spring:
                     config:
                         multi-statement-allow: true
 
-
 ##多数据源的配置
 #dynamic:
 #  datasource:
@@ -47,3 +46,4 @@ spring:
 #      url: jdbc:postgresql://localhost:5432/renren_security
 #      username: renren
 #      password: 123456
+
